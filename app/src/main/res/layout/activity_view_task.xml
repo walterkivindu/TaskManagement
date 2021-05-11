@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.taskmanagement.ViewTaskActivity" >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:text="@string/tvName" />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/tvName"
+        android:ems="20" />
+    <TextView
+        android:id="@+id/tvTImportance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/etName"
+		android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/tvTImportance" />
+    <EditText
+        android:id="@+id/etTImportance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+		android:layout_below="@+id/etName"
+        android:layout_toRightOf="@+id/tvTImportance"
+        android:ems="10" />
+<TextView
+        android:id="@+id/tvTComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTImportance"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/tvTComplete" />
+    <EditText
+        android:id="@+id/etTComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTImportance"
+        android:paddingTop="20dp"   
+        android:layout_toRightOf="@+id/tvTComplete"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/tvTCreateDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTComplete"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"   
+        android:text="@string/tvTCreateDate" />
+  <EditText
+        android:id="@+id/etTCreateDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTComplete"
+        android:paddingTop="20dp"   
+        android:layout_toRightOf="@+id/tvTCreateDate"
+        android:ems="20" />
+  
+   <TextView
+        android:id="@+id/tvTDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTCreateDate"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/tvTDueDate" />
+
+    <EditText
+        android:id="@+id/etTDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTCreateDate"
+        android:layout_toRightOf="@+id/tvTDueDate"
+        android:paddingTop="20dp"
+        android:ems="10" />
+
+</RelativeLayout>

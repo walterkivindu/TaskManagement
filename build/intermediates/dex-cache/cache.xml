@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\mulwaw\AndroidStudioProjects\TaskManagement2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f045959ccda0a7ee26f5360a08e4cba24d2067a3">
+        <dex dex="C:\Users\mulwaw\AndroidStudioProjects\TaskManagement2\app\build\intermediates\pre-dexed\debug\instant-run_05e2b894684c6c5bbf2cba039d3f80082b931e1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mulwaw\AndroidStudioProjects\TaskManagement2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\mulwaw\AndroidStudioProjects\TaskManagement2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-19.1.0_4095db7c0930d70be3fb403a7c1d6763b1351fc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mulwaw\AndroidStudioProjects\TaskManagement2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="18f4f5641ceb6b85ab084dec64cf9a4e52c36e76">
+        <dex dex="C:\Users\mulwaw\AndroidStudioProjects\TaskManagement2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_140f293195df53c43a2bfbe35a7fafa4192314e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mulwaw\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\mulwaw\AndroidStudioProjects\TaskManagement2\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_2015dcc86a164cbbdf57f124a65e206214a9de3e.jar" />
+    </item>
+
+</items>

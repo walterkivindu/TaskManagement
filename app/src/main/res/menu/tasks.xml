@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.taskmanagement.TasksActivity" >
+
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="1"
+        android:icon="@drawable/edit"
+        android:title="@string/edit"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/Add"
+        android:orderInCategory="1"
+        android:icon="@drawable/add_icon"
+        android:title="@string/Add"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TaskManagement</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="AddTask1">Add Task</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+    <string name="tvAddTaskName">Task Name:</string>
+    <string name="etTaskName">task name?</string>
+    <string name="tvAddTaskImportance">Task Importance</string>
+    <string name="AddTaskComplete">Task Complete?</string>
+    <string name="tvTaskCreateDate">Create on :</string>
+    <string name="etTaskCreateDate">create date</string>
+    <string name="tvTaskDueDate">Due Date:</string>
+    <string name="etTaskDueDate">Due Date</string>
+    <string name="btnAdd">Add</string>
+    <string name="TaskImportance">Task Importance</string>
+    <string name="dropdown_1">Low</string>
+    <string name="dropdown_2">Medium</string>
+    <string name="dropdown_3">High</string>
+    <string name="tvName">Task Name</string>
+    <string name="tvTImportance">Task Importance</string>
+    <string name="tvTComplete">Task Complete</string>
+    <string name="tvTCreateDate">Create Date</string>
+    <string name="tvTDueDate">Due Date</string>
+    <string name="edit">Edit</string>
+    
+    <string name="TaskComp">Task Complete</string>
+    <string name="dropdown_4">No</string>
+    <string name="dropdown_5">Yes</string>
+
+    <string name="Add">Add</string>
+
+    <string-array name="importance">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="complete">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="title_activity_view_task">ViewTaskActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tasks">TasksActivity</string>
+
+</resources>

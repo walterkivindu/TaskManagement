@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu1"
+    tools:context="com.example.taskmanagement.ViewTaskActivity" >
+    <item
+        android:id="@+id/TaskImportance"
+        android:orderInCategory="1"
+        android:title="@string/TaskImportance"
+        app:showAsAction="ifRoom|withText">
+        <!--  android:icon="@drawable/importance1"-->
+	    <menu>
+	        <!-- Create radio button -->
+	        <group android:checkableBehavior="single">
+	          <item 
+	            android:id="@+id/dropdown_1"
+	            android:title="@string/dropdown_1" />
+	          <item 
+	            android:id="@+id/dropdown_2"
+	            android:title="@string/dropdown_2" />
+	          <item 
+	            android:id="@+id/dropdown_3"
+	            android:title="@string/dropdown_3" />
+	          </group>
+	        </menu>
+        
+        </item>
+        <item
+        android:id="@+id/TaskComp"
+        android:orderInCategory="1"
+        android:title="@string/TaskComp"
+        app:showAsAction="ifRoom|withText">
+        <!--  android:icon="@drawable/importance1"-->
+	    <menu>
+	        <!-- Create radio button -->
+	        <group android:checkableBehavior="single">
+	          <item 
+	            android:id="@+id/dropdown_4"
+	            android:title="@string/dropdown_4" />
+	          <item 
+	            android:id="@+id/dropdown_5"
+	            android:title="@string/dropdown_5" />
+	          </group>
+	        </menu>
+        
+        </item>
+
+</menu>
